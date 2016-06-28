@@ -141,7 +141,7 @@ def lidar_read_plot():
 	pp.scatter(time, height ,c=snr, s=4, marker='s',lw=0)
 	pp.xlabel("Time (UTC)")
 	pp.ylabel("Height (m)")
-	pp.axis([min(time),max(time),0.0,max(height)])
+	pp.axis([min(time),max(time),0.0,max(height)]) #Change this line to adjust axis limits [min x, max x, min y, max y]
 	cbar = pp.colorbar()
 	cbar.set_label("Intensitiy (SNR+1)")
 
