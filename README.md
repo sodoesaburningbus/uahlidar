@@ -2,7 +2,7 @@
 This repository contains the code to read data from the UAH lidar
 
 This code reads and plots stare data from the University of
-Alabama in Huntsville' sLIDAR
+Alabama in Huntsville's LIDAR
 Written by Christopher Phillips
 
 License:
